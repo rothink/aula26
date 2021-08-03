@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Document</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .topnav a {
+                color: pink;
+                float: left;
+                display: block;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .topnav a:hover {
+                background-color: darkgreen;
+                color: black;
+            }
+
+            #a-home {
+                color: brown;
+            }
+
+            .column {
+                float: left;
+                padding: 10px;
+            }
+
+            .column.side {
+                width: 25%;
+            }
+
+            .column.middle {
+                width: 50%;
+            }
+
+            .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+            }
+
+            hr {
+                border: 1px solid white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Cabeçalho</h1>
+        </div>
+        <div class="topnav">
+            <a href="" id="a-home">Home</a>
+            <a href="">Teste</a>
+            <a href="">Fui</a>
+        </div>
+        <div class="row">
+            <div class="column side">
+                <h2>Esquerdo</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Natus asperiores vero quo autem velit consectetur eos
+                    nostrum pariatur dolorum ad animi mollitia impedit dolore,
+                    tenetur vitae saepe ab aperiam id.
+                </p>
+            </div>
+            <div class="column middle">
+                <h2>Centro</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores sed sequi cum voluptatibus. A facere cupiditate
+                    ipsam ea dolor exercitationem voluptatum voluptates
+                    perferendis, temporibus recusandae adipisci dolores eligendi
+                    rerum. Corporis.
+                </p>
+            </div>
+            <div class="column side">
+                <h2>Direita</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Deleniti ex eum modi deserunt possimus nobis, expedita animi
+                    debitis officiis illo quidem quibusdam obcaecati itaque,
+                    iste dolorem veritatis culpa tempora quod.
+                </p>
+            </div>
+        </div>
+        <div>
+            <hr />
+        </div>
+
+        <div class="footer">
+            <h3>Rodapé</h3>
+        </div>
+    </body>
+</html>
